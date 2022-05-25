@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.logo
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+ul
+{
+    list-style: none
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.header-links
+{
+    display: inline-flex;
+    /* flex-direction: row; */
+    gap: 16px;
+    font-size: 18px;  
+}
+
+.content
+{
+    flex: 1;
+}
+.one
+{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.one-contents
+{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 75%;
+    margin: 60px;
+    align-items: center;
+
+}
+
+.one-text
+{
+    max-width: 50%;
+    color: white;
+}
+
+.one-text h1
+{
+    font-size: 48px;
+}
+
+.one-text p
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.one-image
+{
+    height: 250px;
+}
+
+
+.one-signup-button
+{
+    height: 30px;
+    width: 100px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+}
+
+.two
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.two-contents
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 30px;
+}
+
+.two-title
+{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.content-images
+{
+    display: flex;
+    gap: 16px;
+}
+
+
+.small-images-and-text
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+    margin: 20px 12px;
+}
+.images
+{
+    width: 100%;
+}
+
+
+.three
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    min-height: 20%;
+}
+
+.three-contents
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%; 
+    align-items: center;
+    margin: 50px;
+}
+
+.quote
+{
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    margin: 10px;
+}
+
+.author
+{
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.four
+{   
+   display: flex;
+   justify-content: center;
+   height: 20%;
+}
+
+.signup-background
+{
+    background-color: #3882f6;
+    display: inline-flex;
+    padding: 30px 90px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    margin: 90px 0;
+    width: 50%;
+   
+}
+
+.four-text
+{
+    color: white;
+    margin-right: 60px;
+    font-size: 18px;
+}
+
+.four-title
+{
+    font-weight: bold;
+    margin: 0;
+}
+
+.four-para
+{
+    margin: 0;
+}
+
+.signup-button
+{
+    height: 30px;
+    width: 100px;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+footer
+{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    /* height: 10%; */
+}
